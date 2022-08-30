@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        * {
+            font-family: Cambria, Cochin, Georgia, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: bisque;
+        }
+
+        header {
+            padding: 15px;
+            background-color: rgb(245, 202, 150);
+        }
+
+        h1 {
+            text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.562);
+            text-align: center;
+            color: white;
+        }
+
+        main {
+            max-width: 60%;
+            min-width: 500px;
+            height: 300px;
+            margin: auto;
+            padding: 25px 15px 45px 15px;
+            background-color: #fff;
+            border-radius: 0 0 10px 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        main h2 {
+            padding: 15px 0;
+        }
+
+        table{
+            margin-bottom: 1.5em;
+            /* margin-left: 10px; */
+            box-shadow: rgba(17, 17, 26, 0.185) 0px 4px 16px, rgba(17, 17, 26, 0.192) 0px 8px 24px, rgba(17, 17, 26, 0.164) 0px 16px 56px;
+        }
+
+        
+        th {
+            background-color: teal;
+            padding:  12px;
+            color: #fff;
+            vertical-align: top;
+        }
+
+        td {
+            background-color: #53a1a1;
+            padding: 3px 6px;
+            text-align: left;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>TABELAS</h1>
+    </header>
+    <main>
+        <h2>Dev Quest</h2>
+        <table>
+            <tr> <!--linha-->
+                <th>Roupas</th> <!--th = cabecalho-->
+                <th>Cor</th>
+                <th>Tamanhos</th>
+                <th>Preços</th>
+                <th>Disponibilidade</th>
+            </tr>
+            <tr> <!--linha-->
+                <td>Camisetas</td> <!--dados da tabela-->
+                <td>Pretas</td>
+                <td>M</td>
+                <td>R$ 70,00</td>
+                <td>Em estoque</td>
+            </tr>
+            <tr>
+            <td>Calça Jeans</td> <!--dados da tabela-->
+            <td>Azul</td>
+            <td>P</td>
+            <td>R$ 160,00</td>
+            <td>Esgotado</td>
+            </tr>
+        </table>
+        <!-- table>tr*3>td*5 -->
+        <!-- tabela com 3 linhas e 5 fileira de dados -->
+        
+        <table>
+            <tr>
+                <th>Roupas</th>
+                <th>Cor</th>
+                <th>Tamanhos</th>
+                <th>Preços</th>
+                <th>Disponibilidade</th>
+            </tr>
+            <tr>
+                <td>Conjunto moletom</td>
+                <td>3</td>
+                <td>5</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>t</td>
+                <td>e</td>
+                <td></td>
+                <td>y</td>
+                <td></td>
+            </tr>
+        </table>
+    </main>
+    
+</body>
+</html>
