@@ -63,26 +63,14 @@ th {
     color: #fff;
 }
 
-/* th.texto-titulo {
-    background-color: rgb(10, 10, 26);
-    display: inline;
-}
-
-th.texto-titulo h1 {
-    color: #cf2e4c;
-}
-
-th.texto-titulo h2 {
-    color: #fff;
-} */
-
-
 th.modelo {
     font-weight: lighter /* = 300*/;
+    padding: 5px 10px;
 }
 
 .th-vertical {
     text-align: left;
+    padding: 10px 5px;
 }
 
 table .vazio {
@@ -90,14 +78,24 @@ table .vazio {
     border-radius: 0;
 }
 
-td {
+tbody {
+    /* padding: 20px 5px; */
+}
+
+tbody td {
     background-color: lightgray;
     font-size: 11px;
+    font-weight: 700;
     border-radius: 8px;
+    padding: 16px 10px;
     /* vertical-align: middle; */
-    }
+}
 
-td strong {
+tbody .th-vertical {
+    padding: 10px 20px;
+}
+
+tbody td strong {
     font-size: 20px;
     vertical-align: middle;
 }
